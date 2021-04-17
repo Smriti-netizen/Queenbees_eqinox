@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+body{
+    margin:10px;
+    padding: 10px;
+    background-color: palevioletred;
+}
+section{
+    widows:100%;
+    height:95vh;
+    position: relative;
+}
+img{
+    width:100%;
+    height: 170%;
+    padding-bottom: 30px;
+    align-items: center;
+    padding-right: 10px;
+}
+section button{
+    position: absolute;
+    top:160%;
+    left:40%;
+    right:60%;
+    background-color: rgb(59, 11, 11);
+    font-size:16px;
+    padding: 12px 14px;
+    color: whitesmoke;
+    font-weight: 400;
+    border:none;
+    border-radius: 5px;
+    font-family: Georgia;
+}
+button:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+section a{
+    color:whitesmoke;
+    font-weight:400;
+    font-family: georgia;
+    font-size:16px;
+    text-decoration: none;
+}
